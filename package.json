@@ -1,0 +1,23 @@
+{
+  "name": "ts-browser-watch",
+  "version": "1.0.0",
+  "description": "a typescript compiler for browser using browserify and watchify",
+  "main": "watch.js",
+  "repository": "https://github.com/rjfreund/ts-browser-watch.git",
+  "author": "R.J. Freund (robert.joseph.freund@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "chalk": "^2.4.1",
+    "glob-all": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tap": "^1.0.1",
+    "moment": "^2.22.2",
+    "tsify": "^4.0.0",
+    "typescript": "^3.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  }
+}

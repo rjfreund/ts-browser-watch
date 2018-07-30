@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add browserify watchify glob tsify gulp tap chalk moment buffer source sourcemaps
+
+PATH: 
+  C:\Program Files\HPE_Security\Fortify_SCA_and_Apps_17.20\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\tools;C:\Program Files\NetIQ\SecureLogin\;C:\Program Files (x86)\PASSPORT WEB TO HOST Client\;\jre\bin\client;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Python27;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft VS Code;C:\Program Files\Sublime Text 3;C:\Program Files (x86)\LINQPad5;C:\Program Files\pgsql\bin;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\cygwin64\bin;C:\local\os_tools;C:\windows\idmu\common;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Gartle\gsqlcmd\;C:\ProgramData\Rocket\Macros;C:\Program Files (x86)\Yarn\bin\;C:\local\os_tools\;C:\Program Files\Heroku\bin;C:\elevate;C:\Program Files (x86)\Microsoft Office\Office15;C:\Program Files\GitTfs-0.27.0;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files\ripgrep-0.7.1-x86_64-pc-windows-gnu;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files (x86)\Google\Chrome\Application\;C:\Program Files\Internet Explorer\;C:\Program Files (x86)\Fiddler\;C:\local\eh\eclipse;C:\local\psh;C:\local\eh\nant-0.92\bin;C:\Program Files (x86)\Meld;C:\Users\rjfreun\AppData\Roaming\npm;C:\Program Files (x86)\windirstat\;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64;C:\local\eh\ProcessMonitor;C:\Python27\Scripts;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\;C:\Users\rjfreun\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://registry.npmjs.org/sourcemaps: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65656:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:134675:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:135658:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:135578:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "ts-browser-watch",
+    "version": "1.0.0",
+    "description": "a typescript compiler for browser using browserify and watchify",
+    "main": "watch.js",
+    "repository": "https://github.com/rjfreund/ts-browser-watch.git",
+    "author": "R.J. Freund (robert.joseph.freund@gmail.com)",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
